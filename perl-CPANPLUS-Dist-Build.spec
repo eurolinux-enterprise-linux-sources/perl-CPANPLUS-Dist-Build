@@ -1,6 +1,6 @@
 Name:           perl-CPANPLUS-Dist-Build
 Version:        0.70
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        Module::Build extension for CPANPLUS
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -120,6 +120,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.70-3
+- Mass rebuild 2013-12-27
+
 * Mon Jun 17 2013 Petr Pisar <ppisar@redhat.com> - 0.70-2
 - Do not build-require Module::Install::AutoLicense on RHEL >= 7
 
